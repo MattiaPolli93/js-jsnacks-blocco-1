@@ -1,7 +1,6 @@
-// To ask the user if their inserted number (in the array) is uneven
+// Ask the user if their inserted number (in the array) is uneven
 // Creating array and assigning variables
 var numberList = [];
-var i;
 
 // Adding uneven numbers to the array
 for (var i = 1; i <= 6; i++) {

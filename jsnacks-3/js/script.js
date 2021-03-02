@@ -1,7 +1,6 @@
-// To print the sum of 10 numbers inserted by the user
+// Print the sum of 10 numbers inserted by the user
 // Assigning variables
 var sum = 0;
-var i;
 
 // Calculating
 userNumber = 0;

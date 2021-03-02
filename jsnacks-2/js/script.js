@@ -1,4 +1,4 @@
-// To display the shortest and then the longest word
+// Print the shortest and then the longest word
 // Assigning variables
 var firstWord = prompt("Hello! Please insert a word:");
 var secondWord = prompt("Now insert a second word:");

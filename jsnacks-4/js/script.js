@@ -1,4 +1,4 @@
-// To check whether the user's inserted name is inside the array
+// Check whether the user's inserted name is inside the array
 // Assigning variable to the array
 var partyList = ["Steve", "Tony", "Thor", "Natasha", "Bruce", "Clint"];
 
@@ -7,8 +7,6 @@ var userName = prompt("Hi! Were you invited to the party? Insert your name so th
 var invited = false;
 
 // Calculating (checking inside the array)
-var i;
-
 for (var i = 0; i < partyList.length; i++) {
     if (partyList[i] == userName) {
         invited = true;
