@@ -5,9 +5,11 @@ var secondWord = prompt("Now insert a second word:");
 
 // Calculating
 if (firstWord.length > secondWord.length) {
-    console.log(firstWord);
-    console.log(secondWord);
+    console.log("Longest word: " + firstWord);
+    console.log("Shortest word: " + secondWord);
 } else if (firstWord.length < secondWord.length) {
-    console.log(secondWord);
-    console.log(firstWord);
+    console.log("Longest word: " + secondWord);
+    console.log("Shortest word: " + firstWord);
+} else if (firstWord == secondWord) {
+    console.log("Same length!");
 }
