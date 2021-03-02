@@ -6,8 +6,8 @@ var i;
 // Calculating
 userNumber = 0;
 // Asking the user to insert numbers
-var userNumber = parseInt(alert("Hello, please insert a number in the following dialogs:"));
-for (var i= 0; i < 10; i++) {
+var userNumber = alert("Hello, please insert a number in the following dialogs:");
+for (var i = 0; i < 10; i++) {
     // Adding number to the sum
     sum += parseInt(prompt(i + 1 + "° number: "));
 }
